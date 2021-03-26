@@ -1,0 +1,33 @@
+header {
+    background-color: #ac1258;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-name-container {
+    display: flex;
+}
+
+/* any image in the header */
+
+img {
+    width: 8vh;
+    height: 8vh;
+}
+
+.logo {
+    width: 8vh;
+    height: 8vh;
+    margin-left: 20px;
+}
+
+.app-name {
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+}
+
+.avatar {
+    margin-right: 20px;
+}

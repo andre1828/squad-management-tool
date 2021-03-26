@@ -1,0 +1,13 @@
+.top-5-teams {
+    background-color: white;
+    height: 100px;
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 2px 5px 9px #696f6d1a;
+}
+
+.section-title {
+    color: #562d85;
+}
