@@ -23,6 +23,10 @@ label {
     margin-left: 5%;
 }
 
+.form-input-radio label {
+    margin-left: 1%;
+}
+
 input[type=text] {
     border: 1.3px solid #ececec;
     border-radius: 2px;
