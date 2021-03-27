@@ -1,27 +1,28 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './TeamInformation.css'
+import RadioButton from './../RadioButton/RadioButton.js'
 
 function TeamInformation() {
     return (
         <>
             <h3 className="section-title">TEAM INFORMATION</h3>
             <div className="form-input">
-                <label htmlFor="">Team name</label>
-                <input type="text" placeholder="Insert team name" />
+                <label htmlFor="teamName">Team name</label>
+                <input type="text" placeholder="Insert team name" id="teamName" />
             </div>
             <div className="form-input">
-                <label htmlFor="">Team description</label>
-                <textarea name="team-description" cols="30" rows="10"></textarea>
+                <label htmlFor="teamDescription">Team description</label>
+                <textarea name="team-description" cols="30" rows="10" id="teamDescription"></textarea>
             </div>
             <div className="form-input">
-                <label htmlFor="">Team website</label>
-                <input type="text" placeholder="http://myteam.com" />
+                <label htmlFor="teamWebsite">Team website</label>
+                <input type="text" placeholder="http://myteam.com" id="teamWebsite" />
             </div>
-            <div className="form-input">
-                <label htmlFor="">Team type</label>
-                <input type="radio" name="team-real" />
-                <input type="radio" name="team-fantasy" />
+            <div className="form-input-radio">
+                <label>Team type</label>
+                <RadioButton label="Real" placement="left" />
+                <RadioButton label="Fantasy" placement="right" />
             </div>
         </>
     )

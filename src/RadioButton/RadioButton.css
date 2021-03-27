@@ -1,0 +1,16 @@
+.wrapper {
+    margin-top: 7px;
+}
+
+.wrapper-left {
+    grid-row-start: 2;
+}
+
+.wrapper-right {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.radio-label {
+    margin-left: 5px;
+}

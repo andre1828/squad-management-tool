@@ -9,6 +9,15 @@
     margin-top: 23px;
 }
 
+.form-input-radio {
+    display: grid;
+    grid-template-columns: 90px 90px;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
 label {
     font-size: small;
     margin-left: 5%;
