@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import './TeamInformation.css'
 import RadioButton from './../RadioButton/RadioButton.js'
 import TagList from './../TagList/TagList.js'

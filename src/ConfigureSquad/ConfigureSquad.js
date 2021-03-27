@@ -1,10 +1,12 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import './ConfigureSquad.css'
+import TeamFormation from './../TeamFormation/TeamFormation.js'
 
 function ConfigureSquad() {
     return (
         <>
-            <h1>Configure squad</h1>
+            <h3 className="section-title">Configure Squad</h3>
+            <TeamFormation/>
         </>
     )
 }

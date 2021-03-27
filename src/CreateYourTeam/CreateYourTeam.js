@@ -9,7 +9,7 @@ function CreateYourTeam() {
             <h3 className="widget-title">Create your team</h3>
             <div className="title-border"></div>
             <TeamInformation />
-            {/* <ConfigureSquad /> */}
+            <ConfigureSquad />
         </div>
     )
 }
