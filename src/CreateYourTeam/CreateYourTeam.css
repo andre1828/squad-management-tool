@@ -1,0 +1,19 @@
+.create-your-team {
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    border-radius: 5px;
+    box-shadow: 2px 5px 9px #696f6d1a;
+}
+
+.widget-title {
+    margin-left: 15px;
+    color: #562d85;
+}
+
+.title-border {
+    width: 100%;
+    border: 0.2px #f3f3f3 solid;
+}

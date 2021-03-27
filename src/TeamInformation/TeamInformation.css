@@ -1,0 +1,35 @@
+.section-title {
+    text-align: center;
+    color: #8d8d8d;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
+
+label {
+    font-size: small;
+    margin-left: 5%;
+}
+
+input[type=text] {
+    border: 1.3px solid #ececec;
+    border-radius: 2px;
+    width: 90%;
+    height: 23px;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    text-indent: 10px;
+}
+
+textarea {
+    border: 1.3px solid #ececec;
+    border-radius: 2px;
+    width: 90%;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+}

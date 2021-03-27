@@ -5,7 +5,7 @@ import React from 'react'
 function Top5Teams() {
     return (
         <div className="top-5-teams">
-            <h3 className="section-title">Top 5</h3>
+            <h3 className="widget-title">Top 5</h3>
             <ul>
                 <li>bla</li>
                 <li>bla</li>

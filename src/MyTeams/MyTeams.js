@@ -4,7 +4,7 @@ import React from 'react'
 function MyTeams() {
     return (
         <div className="my-teams">
-            <h3 className="section-title">My teams</h3>
+            <h3 className="widget-title">My teams</h3>
             <table>
                 <thead>
                     <tr>
