@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './TeamInformation.css'
 import RadioButton from './../RadioButton/RadioButton.js'
+import TagList from './../TagList/TagList.js'
 
 function TeamInformation() {
     return (
@@ -23,6 +24,10 @@ function TeamInformation() {
                 <label>Team type</label>
                 <RadioButton label="Real" placement="left" />
                 <RadioButton label="Fantasy" placement="right" />
+            </div>
+            <div className="form-input">
+                <label>Tags</label>
+                <TagList/>
             </div>
         </>
     )

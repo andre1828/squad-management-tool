@@ -1,6 +1,5 @@
 import './Header.css'
 import React from 'react'
-import ReactDOM from 'react-dom'
 import logo from './venturus.png'
 import avatar from './avatar.png'
 

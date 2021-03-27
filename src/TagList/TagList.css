@@ -1,0 +1,9 @@
+.tag-list {
+    border: 1.3px solid #ececec;
+    border-radius: 2px;
+    height: 40px;
+    width: 90%;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+}
