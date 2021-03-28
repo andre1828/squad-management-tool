@@ -1,0 +1,51 @@
+.top-5 {
+    background-color: white;
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    box-shadow: 2px 5px 9px #696f6d1a;
+    border-radius: 5px;
+}
+
+.widget-title {
+    color: #562d85;
+}
+
+.title-border {
+    width: 100%;
+    border: 0.2px #f3f3f3 solid;
+}
+
+.team-age-averages {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.age-averages {
+    width: 45%;
+}
+
+.age-average-list {
+    list-style: none;
+    padding: .1px 2px;
+    background-color: #e4dee3;
+    border-radius: 5px;
+}
+
+.age-average-list-item {
+    height: 1.5em;
+    padding: 5px 20px;
+    margin: 2px 0px;
+    background-color: #fefefe;
+    border: .5px solid #fefefe;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.age-average-list-item span {
+    line-height: 1.5;
+}
