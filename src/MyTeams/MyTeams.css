@@ -1,12 +1,19 @@
 .my-teams {
-    background: white;
+    background-color: white;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: grid;
 }
 
 .widget-title {
     color: #562d85;
+    margin-left: 15px;
+}
+
+.title-border {
+    width: 100%;
+    border: 0.2px #f3f3f3 solid;
 }
 
 table {
@@ -17,11 +24,35 @@ table {
     height: 80%;
     border-collapse: collapse;
     border-radius: 1em;
-    /* border: 1px solid white; */
     background-color: white;
 }
 
-td, th {
-    /* border: 1px solid tomato; */
+
+tbody tr {
+    border-bottom: 0.5px solid #f3f3f3;
+}
+
+tbody tr:first-child {
+    border-top: 0.5px solid #f3f3f3;
+}
+
+tr th:first-child {
+    border-right: 1px solid #f3f3f3;
+    padding-right: 3.5rem;
+}
+
+tr th:nth-child(2) {
+    padding-right: 5rem;
+}
+
+td {
+    padding: .5rem .5rem .5rem 1.5rem;
+}
+
+tbody td:nth-child(2n) {
+    padding-left: 1.5rem;
+}
+
+th {
     padding: 0.5rem;
 }
