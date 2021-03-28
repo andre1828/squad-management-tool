@@ -1,0 +1,30 @@
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
+
+.player-list {
+    padding-left: 0;
+    list-style: none;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.player-list .player {
+    background: rgb(252, 252, 252);
+    background: linear-gradient(180deg, rgba(252, 252, 252, 1) 0%, rgba(243, 243, 243, 1) 25%, rgba(229, 229, 229, 1) 100%);
+    height: 60px;
+    border: 1px dashed #f6f6f6;
+    padding: 4px 14px 23px 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 35px 25px;
+}
+
+.value {
+    color: #c81050;
+    margin-left: .5em;
+}
