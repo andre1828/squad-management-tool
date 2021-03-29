@@ -6,7 +6,7 @@ import HighlightedPlayers from './../HighlightedPlayers/HighlightedPlayers.js'
 
 function HomePage() {
     return (
-        <div className="home-page">
+        <div className="home-page content">
             <MyTeams />
             <Top5 />
             <HighlightedPlayers />

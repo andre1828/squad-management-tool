@@ -1,3 +1,7 @@
+.home-page {
+    height: 100%;
+}
+
 @media screen and (min-width: 768px) {
     .home-page {
         display: grid;
@@ -7,7 +11,6 @@
         grid-row-start: my-teams;
         grid-row-end: my-teams;
     }
-
     .widget-title {
         height: 2vh;
     }
