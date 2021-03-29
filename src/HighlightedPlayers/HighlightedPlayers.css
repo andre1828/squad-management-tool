@@ -1,13 +1,63 @@
 .highlighted-players {
-    background-color: white;
-    height: 100px;
+    color: #ffffff;
+    background: rgb(176, 58, 120);
+    background: linear-gradient(180deg, rgba(176, 58, 120, 1) 0%, rgba(117, 44, 123, 1) 100%);
+    box-shadow: 2px 5px 9px #696f6d1a;
+    border-radius: 5px;
     width: 90%;
     margin: 10px auto;
     display: flex;
     justify-content: space-evenly;
-    box-shadow: 2px 5px 9px #696f6d1a;
+    position: relative;
+}
+
+.highlighted-player {
+    position: relative;
+}
+
+.most-picked-player-rim {
+    border: 3.5px dashed #8427a6;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px #772c7a4a;
+    padding: 2px;
 }
 
 .widget-title {
     color: #562d85;
+}
+
+.field-line {
+    width: 1px;
+    background-color: #a9538b;
+}
+
+.field-center-circle {
+    border: 1px solid #a9538b;
+    width: 55px;
+    height: 55px;
+    top: 64px;
+    border-radius: 50%;
+    position: absolute
+}
+
+.player-picture {
+    border-radius: 50%;
+    border: 2px solid #8e0871;
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+
+.player-percentage {
+    position: absolute;
+    top: 32px;
+    left: 125px;
+    border-bottom: 1px solid #fff;
 }
