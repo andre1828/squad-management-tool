@@ -4,6 +4,7 @@
     background: linear-gradient(180deg, rgba(176, 58, 120, 1) 0%, rgba(117, 44, 123, 1) 100%);
     box-shadow: 2px 5px 9px #696f6d1a;
     border-radius: 5px;
+    max-height: 25vh;
     width: 90%;
     margin: 10px auto;
     display: flex;

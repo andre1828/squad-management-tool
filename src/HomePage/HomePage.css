@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+    .home-page {
+        display: grid;
+        grid-template-areas: "my-teams top-5" "my-teams highlighted-players";
+    }
+    .my-teams {
+        grid-row-start: my-teams;
+        grid-row-end: my-teams;
+    }
+
+    .widget-title {
+        height: 2vh;
+    }
+}

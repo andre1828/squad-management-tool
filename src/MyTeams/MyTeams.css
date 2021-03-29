@@ -1,5 +1,6 @@
 .my-teams {
     background-color: white;
+    max-height: 87vh;
     width: 90%;
     margin: 10px auto;
     border-radius: 5px;
@@ -12,16 +13,14 @@
 }
 
 .title-border {
+    height: 0%;
     width: 100%;
     border: 0.2px #f3f3f3 solid;
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    margin: 20px auto;
     width: 90%;
-    height: 80%;
     border-collapse: collapse;
     border-radius: 1em;
     background-color: white;
