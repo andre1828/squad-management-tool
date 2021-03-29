@@ -9,23 +9,26 @@ header {
     display: flex;
 }
 
-/* any image in the header */
-
 img {
-    width: 8vh;
-    height: 8vh;
+    width: 6vh;
+    height: 6vh;
+    margin-top: 6px;
 }
 
 .logo {
-    width: 8vh;
-    height: 8vh;
+    width: 6vh;
+    height: 6vh;
     margin-left: 20px;
 }
 
 .app-name {
     text-align: center;
-    margin-left: 20px;
+    margin-left: 30px;
     color: white;
+}
+
+.username {
+    display: none;
 }
 
 .avatar {

@@ -11,7 +11,7 @@ function Header() {
                     <img src={logo} alt="logo venturus" className="logo" srcSet="" />
                     <h3 className="app-name">Squad Management Tool</h3>
                 </div>
-                <p>John Doe</p>
+                <p className="username">John Doe</p>
                 <img src={avatar} alt="user avatar" className="avatar" srcSet="" />
             </header>
         </>
