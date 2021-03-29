@@ -15,36 +15,36 @@ function MyTeams() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>GDV</td>
-                        <td>Um time da varanda</td>
+                        <td>Barcelona</td>
+                        <td>Barcelona Squad</td>
                     </tr>
                     <tr>
-                        <td>GDV</td>
-                        <td>Um time da varanda</td>
+                        <td>Barcelona</td>
+                        <td>Barcelona Squad</td>
                     </tr>
                     <tr>
-                        <td>GDV</td>
-                        <td>Um time da varanda</td>
+                        <td>Barcelona</td>
+                        <td>Barcelona Squad</td>
                     </tr>
                     <tr>
-                        <td>GDV</td>
-                        <td>Um time da varanda</td>
+                        <td>Barcelona</td>
+                        <td>Barcelona Squad</td>
                     </tr>
                     <tr>
-                        <td>GDV</td>
-                        <td>Um time da varanda</td>
+                        <td>Barcelona</td>
+                        <td>Barcelona Squad</td>
                     </tr>
                     <tr>
-                        <td>GDV</td>
-                        <td>Um time da varanda</td>
+                        <td>Barcelona</td>
+                        <td>Barcelona Squad</td>
                     </tr>
                     <tr>
-                        <td>GDV</td>
-                        <td>Um time da varanda</td>
+                        <td>Barcelona</td>
+                        <td>Barcelona Squad</td>
                     </tr>
                     <tr>
-                        <td>GDV</td>
-                        <td>Um time da varanda</td>
+                        <td>Barcelona</td>
+                        <td>Barcelona Squad</td>
                     </tr>
                 </tbody>
             </table>
