@@ -3,8 +3,8 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer>
-            <h5>2010 All rights reserved</h5>
+        <footer className="footer">
+            <h5>2020 - All rights reserved</h5>
         </footer>
     )
 }
