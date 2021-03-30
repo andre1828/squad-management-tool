@@ -35,11 +35,35 @@ function Top5() {
                                 <span>30</span>
                             </div>
                         </li>
+                        <li>
+                            <div className="age-average-list-item">
+                                <span>Inter Milan</span>
+                                <span>30</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="age-average-list-item">
+                                <span>Inter Milan</span>
+                                <span>30</span>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div className="age-averages">
                     <p>Lowest Average Age</p>
                     <ul className="age-average-list">
+                        <li>
+                            <div className="age-average-list-item">
+                                <span>Inter Milan</span>
+                                <span>30</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="age-average-list-item">
+                                <span>Inter Milan</span>
+                                <span>30</span>
+                            </div>
+                        </li>
                         <li>
                             <div className="age-average-list-item">
                                 <span>Inter Milan</span>

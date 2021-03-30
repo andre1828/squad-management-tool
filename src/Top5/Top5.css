@@ -5,6 +5,7 @@
     display: grid;
     box-shadow: 2px 5px 9px #696f6d1a;
     border-radius: 5px;
+    grid-template-rows: min-content min-content;
 }
 
 .widget-title {
