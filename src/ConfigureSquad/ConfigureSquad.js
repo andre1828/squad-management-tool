@@ -7,8 +7,10 @@ function ConfigureSquad() {
     return (
         <>
             <h3 className="section-title">Configure Squad</h3>
-            <TeamFormation/>
-            <SearchPlayers/>
+            <div className="configure-squad-inputs">
+                <TeamFormation />
+                <SearchPlayers />
+            </div>
         </>
     )
 }

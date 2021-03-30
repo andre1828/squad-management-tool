@@ -4,7 +4,7 @@ import './TeamFormation.css'
 function TeamFormation() {
     return (
         <>
-            <div>
+            <div className="team-formation-inputs">
                 <label htmlFor="teamFormation">Formation</label>
                 <select name="formation" id="teamFormation">
                     <option value="3-2-2-3">3 - 2 - 2 - 3</option>
@@ -18,9 +18,11 @@ function TeamFormation() {
                     <option value="4-5-1">4 - 5 - 1</option>
                     <option value="5-4-1">5 - 4 -1</option>
                 </select>
+                <div className="field"></div>
+                <div className="button-wrapper">
+                    <button className="button">Save</button>
+                </div>
             </div>
-            <div className="field"></div>
-            <button className="button">Save</button>
         </>
     )
 }

@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <HomePage />
+      {/* <HomePage /> */}
       <CreateYourTeam />
       <Footer />
     </>

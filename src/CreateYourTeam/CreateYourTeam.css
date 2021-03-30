@@ -1,6 +1,6 @@
 .create-your-team {
     background-color: white;
-    height: 90%;
+    height: max-content;
     width: 90%;
     margin: 10px auto;
     display: grid;

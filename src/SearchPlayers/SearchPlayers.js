@@ -3,8 +3,7 @@ import React from 'react'
 
 function SearchPlayers() {
     return (
-        <>
-
+        <div className="search-players">
             <div className="form-input">
                 <label htmlFor="searchPlayers">Search players</label>
                 <input type="text" id="searchPlayers" />
@@ -22,7 +21,7 @@ function SearchPlayers() {
                     </p>
                 </li>
             </ul>
-        </>
+        </div>
     )
 }
 
