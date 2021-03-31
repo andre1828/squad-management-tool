@@ -1,5 +1,5 @@
 .top-5 {
-    background-color: white;
+    background-color: #ffffff;
     width: 90%;
     margin: 10px auto;
     display: grid;
@@ -14,7 +14,7 @@
 
 .title-border {
     width: 100%;
-    border: 0.2px #f3f3f3 solid;
+    border: 0.2px var(--border-color) solid;
 }
 
 .team-age-averages {

@@ -1,5 +1,5 @@
 .my-teams {
-    background-color: white;
+    background-color: var(--secondary-color);
     max-height: 87vh;
     width: 90%;
     margin: 10px auto;
@@ -21,7 +21,7 @@
 
 .create-team-button {
     background: rgb(176, 58, 120);
-    background: linear-gradient(180deg, rgba(176, 58, 120, 1) 0%, rgba(117, 44, 123, 1) 100%);
+    background: var(--gradient);
     box-shadow: 1px 4px 10px #85307a87;
     width: 30px;
     height: 30px;
@@ -38,7 +38,7 @@
 .title-border {
     height: 0%;
     width: 100%;
-    border: 0.2px #f3f3f3 solid;
+    border: 0.2px var(--border-color) solid;
 }
 
 table {
@@ -46,19 +46,19 @@ table {
     width: 90%;
     border-collapse: collapse;
     border-radius: 1em;
-    background-color: white;
+    background-color: var(--secondary-color);
 }
 
 tbody tr {
-    border-bottom: 0.5px solid #f3f3f3;
+    border-bottom: 0.5px solid var(--border-color);
 }
 
 tbody tr:first-child {
-    border-top: 0.5px solid #f3f3f3;
+    border-top: 0.5px solid var(--border-color);
 }
 
 tr th:first-child {
-    border-right: 1px solid #f3f3f3;
+    border-right: 1px solid var(--border-color);
     padding-right: 3.5rem;
 }
 

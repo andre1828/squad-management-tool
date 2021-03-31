@@ -1,3 +1,9 @@
+:root {
+    --secondary-color: #ffffff;
+    --border-color: #f3f3f3;
+    --gradient: linear-gradient(180deg, rgba(176, 58, 120, 1) 0%, rgba(117, 44, 123, 1) 100%);
+}
+
 html, body, #root {
     height: 100%
 }

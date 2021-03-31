@@ -1,5 +1,5 @@
 .create-your-team {
-    background-color: white;
+    background-color: var(--secondary-color);
     height: max-content;
     width: 90%;
     margin: 10px auto;
@@ -15,5 +15,5 @@
 
 .title-border {
     width: 100%;
-    border: 0.2px #f3f3f3 solid;
+    border: 0.2px var(--border-color) solid;
 }

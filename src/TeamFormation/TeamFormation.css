@@ -19,7 +19,7 @@
 }
 
 .button {
-    color: white;
+    color: var(--secondary-color);
     background: rgb(176, 58, 120);
     background: linear-gradient(142deg, rgba(176, 58, 120, 1) 0%, rgba(117, 44, 123, 1) 100%);
     border: 1px solid #792d7b;

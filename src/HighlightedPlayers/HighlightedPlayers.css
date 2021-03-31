@@ -1,7 +1,7 @@
 .highlighted-players {
-    color: #ffffff;
+    color: var(--secondary-color);
     background: rgb(176, 58, 120);
-    background: linear-gradient(180deg, rgba(176, 58, 120, 1) 0%, rgba(117, 44, 123, 1) 100%);
+    background: var(--gradient);
     box-shadow: 2px 5px 9px #696f6d1a;
     border-radius: 5px;
     max-height: 25vh;
