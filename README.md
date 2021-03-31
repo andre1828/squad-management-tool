@@ -29,4 +29,4 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Deployment
-Documentation on deployment is available here [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment). This links to a specific section detailing the deployment of applications that use client side routing, which is the case
+Documentation on deployment is available here [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment). This links to a specific section detailing the deployment of applications that use client side routing, which is the case with this one.
