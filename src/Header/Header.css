@@ -9,7 +9,7 @@ header {
     display: flex;
 }
 
-img {
+header img {
     width: 6vh;
     height: 6vh;
     margin-top: 6px;
