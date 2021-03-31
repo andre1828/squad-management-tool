@@ -1,13 +1,17 @@
 import './MyTeams.css'
 import React from 'react'
 import plusIcon from './plus.png'
+import { useHistory } from 'react-router-dom'
 
 function MyTeams() {
+
+    let history = useHistory()
+
     return (
         <div className="my-teams">
             <div className="my-teams-header">
                 <h3 className="widget-title">My teams</h3>
-                <button className="create-team-button">
+                <button className="create-team-button" onClick={() => history.push("/create-team")}>
                     <img src={plusIcon} alt="" />
                 </button>
             </div>

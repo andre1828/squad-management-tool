@@ -1,7 +1,11 @@
 import React from 'react'
 import './TeamFormation.css'
+import {useHistory} from 'react-router-dom'
 
 function TeamFormation() {
+
+    let history = useHistory()
+
     return (
         <>
             <div className="team-formation-inputs">
@@ -20,7 +24,7 @@ function TeamFormation() {
                 </select>
                 <div className="field"></div>
                 <div className="button-wrapper">
-                    <button className="button">Save</button>
+                    <button className="button" onClick={() => history.push("/")}>Save</button>
                 </div>
             </div>
         </>
