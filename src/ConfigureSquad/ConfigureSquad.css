@@ -1,17 +1,9 @@
-.field {
-    background: rgb(176, 58, 120);
-    background: linear-gradient(142deg, rgba(176, 58, 120, 1) 0%, rgba(117, 44, 123, 1) 100%);
-    height: 500px;
-    border-radius: 2px;
-    width: 90%;
-    margin-top: 7px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 @media screen and (min-width: 768px) {
     .configure-squad-inputs {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .search-players {
+        height: 82%;
     }
 }
