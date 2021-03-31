@@ -5,11 +5,34 @@
     margin: 10px auto;
     border-radius: 5px;
     display: grid;
+    grid-template-rows: min-content min-content;
+}
+
+.my-teams-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .widget-title {
     color: #562d85;
     margin-left: 15px;
+}
+
+.create-team-button {
+    background: rgb(176, 58, 120);
+    background: linear-gradient(180deg, rgba(176, 58, 120, 1) 0%, rgba(117, 44, 123, 1) 100%);
+    box-shadow: 1px 4px 10px #85307a87;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5%;
+}
+
+.create-team-button img {
+    width: 11px;
+    height: 11px;
 }
 
 .title-border {
@@ -25,7 +48,6 @@ table {
     border-radius: 1em;
     background-color: white;
 }
-
 
 tbody tr {
     border-bottom: 0.5px solid #f3f3f3;
